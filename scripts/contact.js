@@ -4,7 +4,7 @@ let contactPage = document.getElementById("contact-page")
 // hint: you can change the style of an element by modifying the value of that element's .style.fontSize, or by updating its .classList.
 
 function newContent() {
-    contactPage.innerHTML = "<p> Test test <p>";
+    contactPage.innerHTML = "<p style='font-size: 24px;'>Thank you for your message!<p>";
 }
 
 submitButton.addEventListener('click',newContent)
